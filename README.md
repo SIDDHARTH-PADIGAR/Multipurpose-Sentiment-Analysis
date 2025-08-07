@@ -82,41 +82,9 @@ The API will be available at `http://localhost:8000` with interactive documentat
 
 ### Basic Sentiment Analysis
 
-```python
-import requests
+<img width="906" height="489" alt="Screenshot 2025-08-07 160819" src="https://github.com/user-attachments/assets/1f7b2fc1-e869-4cf2-968f-9ded6e310b59" />
 
-# Single text prediction
-response = requests.post(
-    "http://localhost:8000/predict",
-    json={"text": "I absolutely love this product! Great quality and fast shipping."}
-)
-
-print(response.json())
-# Output: {'label': 'positive', 'score': 0.94}
-```
-
-### Batch Processing
-
-```python
-# Multiple texts at once
-texts = [
-    "This movie was fantastic!",
-    "Terrible service, very disappointed.",
-    "It's okay, nothing special."
-]
-
-response = requests.post(
-    "http://localhost:8000/predict_batch",
-    json={"texts": texts}
-)
-
-print(response.json())
-# Output: [
-#   {'text': 'This movie was fantastic!', 'label': 'positive', 'score': 0.89},
-#   {'text': 'Terrible service, very disappointed.', 'label': 'negative', 'score': 0.91},
-#   {'text': "It's okay, nothing special.", 'label': 'neutral', 'score': 0.72}
-# ]
-```
+<img width="898" height="470" alt="Screenshot 2025-08-07 160905" src="https://github.com/user-attachments/assets/3f97e6aa-db97-44c0-8608-ad422f1ab21a" />
 
 ## Real-World Applications
 
