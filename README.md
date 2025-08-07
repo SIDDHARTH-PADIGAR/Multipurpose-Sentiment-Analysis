@@ -213,7 +213,6 @@ Results are logged and saved for model comparison and performance tracking.
 
 **Siddharth Padigar**  
 [![GitHub](https://img.shields.io/badge/GitHub-SIDDHARTH--PADIGAR-blue?logo=github)](https://github.com/SIDDHARTH-PADIGAR)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/your-profile)
 
 Built as a portfolio-quality, production-grade project showcasing modern NLP and transformer technologies.
 
